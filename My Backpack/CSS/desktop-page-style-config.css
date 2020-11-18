@@ -1,0 +1,293 @@
+/*
+
+FONTS UTILIZADAS: 
+
+- Roboto Condensed;
+- Staatliches;
+- Baloo Thambi 2;
+
+*/
+
+
+
+/* CONFIG NORMAL DESKTOP PAGE (1920px X 1280px) */
+
+*{
+    margin: 0%;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+    color: #fff;
+}
+
+#config-divs-page{
+    width: 6px;
+    height: 130px;
+    background-color: #fff;
+}
+
+/* CONFIG HEADER */
+
+#header-config{
+    width: 100%;
+    height: 80px;
+    background-color: #5848c0;
+    /*border-bottom: 2px solid #fff;*/
+    /*background-color: #3CB371;
+    box-shadow: 0px 12px 16px #999;*/
+}
+
+#itens-header-config{
+    font-family: 'Staatliches';
+}
+
+.logo-header-image-config{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 6.6%;
+    background-color: #444;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+
+.logo-header{
+    font-size: 28pt;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.iten-one{
+    font-size: 24pt;
+    transition: 0.5s;
+    position: absolute;
+    top: 22px;
+    right: 23%;
+    color: #fff;
+}
+
+.iten-one:hover{
+    transition: 0.5s;
+    color: #b2a8f3;
+}
+
+.iten-two{
+    font-size: 24pt;
+    transition: 0.5s;
+    position: absolute;
+    top: 22px;
+    right: 18%;
+    color: #fff;
+}
+
+.iten-two:hover{
+    transition: 0.5s;
+    color: #b2a8f3;
+}
+
+.iten-tree{
+    font-size: 24pt;
+    transition: 0.5s;
+    position: absolute;
+    top: 22px;
+    right: 11%;
+    color: #fff;
+}
+
+.iten-tree:hover{
+    transition: 0.5s;
+    color: #b2a8f3;
+}
+
+#game-styles {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+  }
+
+.image-account-button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 7%;
+}
+
+.config-search-bar{
+    width: 500px;
+    height: 30px;
+    border: none;
+    position: absolute; 
+    top: 23px;
+    left: 24%;
+    border: 4px solid #fff;
+    border-radius: 2px;
+}
+
+.lupa-image-on-search-bar{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    background-color: #666;
+    border: 9px solid #666;
+}
+
+.lupa-image-on-search-bar:hover{
+    transition: 0.5s;
+    background-color: #444;
+    border: 9px solid #444;
+}
+
+
+
+
+/* CONFIG LOCAL BANNER */
+
+#initial-banner-config{
+    width: 80%;
+    height: 30vh;
+    font-family: 'Staatliches';
+    background-image: linear-gradient(to right, #333, #3519e9, #333);
+    box-shadow: 0px 12px 16px #777;
+    /*border-left: 5px solid rgb(202, 202, 25);
+    border-right: 5px solid rgb(202, 202, 25);*/
+    position: relative;
+    top: 0%;
+    left: 9%;
+}
+
+.text-banner{
+    font-size: 40pt;
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    text-shadow: 15px 0px 20px #333;
+}
+
+.logo-page-banner{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 0px;
+    right: 25%;
+}
+
+.edit-bottom-banner{
+    height: 200px;
+    position: absolute;
+    top: 60px;
+}
+
+.div-text-banner{
+    position: absolute;
+    top: 75px;
+    right: 46%;
+}
+
+
+
+/* CONFIG SERVICES ALERT AREA */
+
+#config-blocks-alert{
+    transition: 0.4s;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #555, #5848c0);
+    border-radius: 15px;
+    padding: 1px;
+    font-family: 'Baloo Thambi 2';
+}
+
+/* CONFIG BLOCK ONE */
+.block-one{
+    position: relative;
+    top: 100px;
+    left: 19%;
+}
+
+.block-one:hover{
+    transition: 0.4s;
+    position: relative;
+    top: 80px;
+    left: 19%;
+}
+
+.credit-card-image-config{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 28%;
+}
+
+
+
+/* CONFIG BLOCK TWO */
+.block-two{
+    position: relative;
+    top: -200px;
+    left: 39%;
+}
+
+.block-two:hover{
+    transition: 0.4s;
+    position: relative;
+    top: -220px;
+    left: 39%;
+}
+
+
+/* CONFIG BLOCK TREE */ 
+.block-tree{
+    position: relative;
+    top: -500px;
+    left: 59%;
+}
+
+.block-tree:hover{
+    transition: 0.4s;
+    position: relative;
+    top: -520px;
+    left: 59%;
+}
+
+
+/* CONFIG PRODUCTS AREA */
+
+#local-products-page{
+    width: 80%;
+    height: 100vh;
+    background-color: #333;
+    border-radius: 10px;
+    position: absolute;
+    top: 950px;
+    left: 9%;
+}
+
+/*.edit-bottom-products-image{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}*/
+
+
+/* CONFIG BOTTOM PAGE */
+
+.bottom-page{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 300px;
+}
